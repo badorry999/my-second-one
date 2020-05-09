@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="styles.css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <link rel="stylesheet" href="awesome/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
 <body>
     
@@ -57,44 +59,46 @@
 
 
 
-     <div class="section-casting pad-t">
-         <div class="casting-contant">
-             <div class="container">
-                 <div class="casting-itmes">
-                     <h2>NEW FACES</h2>
-                     <div class="casting-option">
-                     <span class="span-active">all</span>
-                     <span>men</span>
-                     <span>fmail</span>
-                     <span>kids</span>
-                     </div>
-                 </div>
-             </div>
-         </div>
+     <!-- Nav tabs -->
+     <ul class="nav nav-tabs mt-5 justify-content-center border-bottom-0">
+        <li class="nav-item">
+          <a class="nav-link text-primary active" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="#menu1">Menu 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="#menu2">Menu 2</a>
+        </li>
+      </ul>
+
+
+     <div class="tab-content text-center">
+        <div id="home" class="container tab-pane active"><br>
+            <img src="images/casting1.jpg" width="200px" height=200px alt="">
+            <img src="images/casting2.jpg" width="200px" height=200px alt="">
+            <img src="images/casting3.jpg" width="200px" height=200px alt="">
+        
+        </div> 
+
+        <div id="menu1" class="container tab-pane fade"><br>
+            <img src="images/casting4.jpg" width="200px" height=200px alt="">
+            <img src="images/casting5.jpg" width="200px" height=200px alt="">
+            <img src="images/casting6.jpg" width="200px" height=200px alt="">
+        
+        </div>
+
+        <div id="menu2" class="container tab-pane fade"><br>
+            <img src="images/casting2.jpg" width="200px" height=200px alt="">
+            <img src="images/casting5.jpg" width="200px" height=200px alt="">
+            <img src="images/casting6.jpg" width="200px" height=200px alt="">
+        
+        </div>
      </div>
-     
-                 <div class="section-casting-img pad-t">
-                     <div class="container">
-                 <div class="img-itmes ">
-                     <img src="images/casting1.jpg" width="100%" alt="">
-                 </div>
-                 <div class="img-itmes ">
-                    <img src="images/casting2.jpg" width="100%" alt="">
-                </div>
-                <div class="img-itmes">
-                    <img src="images/casting3.jpg" width="100%" alt="">
-                </div>
-                <div class="img-itmes">
-                    <img src="images/casting4.jpg" width="100%" alt="">
-                </div>
-                <div class="img-itmes ">
-                    <img src="images/casting5.jpg" width="100%" alt="">
-                </div>
-                <div class="img-itmes">
-                    <img src="images/casting6.jpg" width="100%" alt="">
-                </div>
-            </div>
-            </div>
+
+
+
+
 
 
 
@@ -164,7 +168,16 @@
                     </div>
                 </div>
             </div>
-
+            <div class="section-apply too  mb-5 mt-4">
+                
+                <div class="apply-contant">
+                    <h1>Do you want to be a model?</h1>
+                    
+                </div>
+                
+            </div>
+            
+<clear class="clear-both"></clear>
 
     <footer>
         <div class="section-footer">
@@ -185,7 +198,24 @@
              
 
 
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+<script>
 
+
+    $(document).ready(function(){
+        $(".nav-tabs a").click(function(){
+          $(this).tab('show');
+        });
+      });
+
+
+    
+      
+</script>
 </body>
 </html>
 

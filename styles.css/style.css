@@ -10,6 +10,7 @@ body{
     margin: auto;
 }
 
+
 .pad-t{
     padding-top: 5%;
 }
@@ -141,10 +142,24 @@ nav li a:hover{
     border: 1px solid #ffffff;
     
 }
-
+.list-1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
 
 .casting-itmes{
     text-align: center;
+    margin: 0 auto;
+   
+    
+}
+
+.casting-itmes li{
+    display: inline-block;
+    text-align: center;
+    
 }
 
 .casting-itmes h2{
@@ -342,6 +357,11 @@ nav li a:hover{
 
 .submit-contact:hover{
     background-color: rgb(228, 222, 222);
+}
+
+.too{
+    background-image: none;
+    background-color: none;
 }
 
 
