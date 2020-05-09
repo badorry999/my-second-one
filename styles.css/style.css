@@ -45,16 +45,17 @@ ul{
 
 }
 
-nav li {
+.menu-1 li {
 
     margin-top: 12px;
     float: right;
     text-transform: uppercase;
     
+    
 }
 
 
-nav li a{
+.menu-1 li a{
     text-decoration: none;
     margin:5px ;
     color: white;
@@ -66,7 +67,7 @@ nav li a{
     
 }
 
-nav li a:hover{
+.menu-1 li a:hover{
     background-color: rgb(203, 48, 47);
 }
 
